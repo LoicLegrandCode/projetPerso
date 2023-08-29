@@ -17,3 +17,12 @@ body {
     font-family: var(--font-family);
     background-color: var(--bleu-fonce);
 }
+
+.btnConnexion {
+    padding: 5% 10%;
+    border-radius: var(--border-radius);
+    &:hover {
+        transition: 0.2s opacity;
+        opacity: 0.8;
+    }
+}

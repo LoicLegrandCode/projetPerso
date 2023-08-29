@@ -1,5 +1,4 @@
 import styles from "./Header.module.scss";
-import stylesBtn from "../Button.scss";
 import logo from "../../assets/img/logo-jeux.png";
 
 export default function Header() {
@@ -18,7 +17,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className={`${styles.btnCo}`}>
-                <button className={`${stylesBtn.btnConnexion}`}>test</button>
+                <button className="btnConnexion">test</button>
             </div>
         </header>
     )
