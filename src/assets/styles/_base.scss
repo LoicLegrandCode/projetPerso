@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+// img {
+//     max-width: 100%;
+// }
+
+body {
+    margin: 0 auto;
+    font-family: var(--font-family);
+    background-color: var(--bleu-fonce);
+}
